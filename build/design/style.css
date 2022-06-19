@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+body{
+    
+    padding-top: -20px;
+    padding: 45px;
+    margin: auto;
+   position: relative;
+   max-width: 1000px;
+   min-width: 320px;
+   height: 600px;
+
+
+    background: linear-gradient(180deg, #E05E85 0%, rgba(224, 94, 133, 0.51282) 99.21%, rgba(224, 94, 133, 0) 100%);
+}
+
+
+
