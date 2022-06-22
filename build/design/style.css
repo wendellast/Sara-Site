@@ -1,24 +1,75 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
 *{
         margin: 0px;
         padding: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
     }
 
-
-body{
-    
-    padding-top: -20px;
-    padding: 45px;
-    margin: auto;
-   position: relative;
-   max-width: 1000px;
-   min-width: 320px;
-   height: 600px;
-
-
-    background: linear-gradient(180deg, #E05E85 0%, rgba(224, 94, 133, 0.51282) 99.21%, rgba(224, 94, 133, 0) 100%);
+:root{
+    --font-padrao:  'Sarala', sans-serif; 
+    --font-extra: 'Righteous', cursive;
 }
 
+body{
+    font-size: 100%;
+    height: 616px;
 
+    background: linear-gradient(180deg, #E05E85 0%, rgba(224, 94, 133, 0.51282) 99.21%, rgba(224, 94, 133, 0) 100%);
+    
+   
+}
 
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabeçalho-menu{
+    display: flex;
+    gap: 100px;
+}
+
+.cabeçalho-menu-item{
+    font-family: var(--font-padrao);
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF2E7;
+}
+
+.principal{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 20px;
+}
+
+.seleçao{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    justify-content: space-around;
+    gap: 180px;
+    padding-top: 10px;
+    padding-bottom: 1.0px;
+    
+}
+
+#frame{
+    height: 405px;
+    width: 400px;
+}
+
+footer{
+  
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+    margin: 0 auto ;
+}
+/*
+    Melhora depois
+*/
